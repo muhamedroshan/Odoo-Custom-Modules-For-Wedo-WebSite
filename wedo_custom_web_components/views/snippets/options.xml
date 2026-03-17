@@ -1,0 +1,18 @@
+<odoo>
+    <template id="snippets" inherit_id="website.snippets" name="Wedo Custom Snippets">
+        <!-- Create the group -->
+        <xpath expr="//snippets[@id='snippet_groups']/*[1]" position="before">
+            <t snippet-group="wedo" t-snippet="website.s_snippet_group" string="Wedo Components" t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.svg"/>
+        </xpath>
+
+        <!-- Add the custom snippets to the group -->
+        <xpath expr="//snippets[@id='snippet_structure']/*[1]" position="before">
+            <t t-snippet="wedo_custom_web_components.s_interactive_animation" string="Interactive Animation" group="wedo" t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.svg">
+                <keywords>Animation, Interactive, Wedo</keywords>
+            </t>
+            <t t-snippet="wedo_custom_web_components.s_tech_hero" string="Tech Hero" group="wedo" t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.svg">
+                <keywords>Hero, Tech, Grid, Wedo</keywords>
+            </t>
+        </xpath>
+    </template>
+</odoo>

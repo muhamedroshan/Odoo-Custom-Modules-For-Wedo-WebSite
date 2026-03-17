@@ -1,0 +1,21 @@
+<odoo>
+    <template id="s_interactive_animation" name="Interactive Animation">
+        <section class="s_interactive_animation pt40 pb40 o_colored_level" data-snippet="s_interactive_animation" data-name="Interactive Animation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1>Interactive Animation</h1>
+                        <p class="lead">Hover over the box below!</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <div class="animation-box">
+                            <span>Hover Me!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

@@ -1,0 +1,30 @@
+<odoo>
+    <template id="s_tech_hero" name="Tech Hero">
+        <section class="s_tech_hero" data-snippet="s_tech_hero" data-name="Tech Hero">
+            <!-- Tech Grid Background -->
+            <div class="grid-wrapper">
+                <div class="grid-bg"/>
+
+                <!-- Glowing Data Streams -->
+                <div class="data-pulse h-pulse" style="--glow-color: var(--color-red); top: 20%; left: 0; animation-duration: 5s; animation-delay: 0.5s;"/>
+                <div class="data-pulse v-pulse" style="--glow-color: var(--color-red); left: 75%; top: 0; animation-duration: 6s; animation-delay: 3s;"/>
+                <div class="data-pulse h-pulse" style="--glow-color: var(--color-gold); top: 65%; left: 0; animation-duration: 7s; animation-delay: 2s;"/>
+                <div class="data-pulse v-pulse" style="--glow-color: var(--color-gold); left: 25%; top: 0; animation-duration: 5.5s; animation-delay: 1s;"/>
+                <div class="data-pulse h-pulse" style="--glow-color: rgba(0,0,0,0.3); top: 85%; left: 0; animation-duration: 8s; animation-delay: 4s;"/>
+            </div>
+
+            <!-- Clean Text Content -->
+            <div class="o_container">
+                <div class="hero-content">
+                    <h4 class="tagline">Your Integrated Partner in <span>Information Technology</span> and <span>Services.</span></h4>
+                    <p class="sub-tagline">We offer technological solutions with outstanding expertise.</p>
+
+                    <div class="cta-group">
+                        <a href="#" class="btn-tech btn-tech-primary">View Our Services</a>
+                        <a href="#" class="btn-tech btn-tech-secondary">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

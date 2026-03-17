@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+        <!-- Page Template -->
+        <template id="animation_page_template" name="Interactive Animation Page">
+            <t t-call="website.layout">
+                <div id="wrap" class="oe_structure oe_empty">
+                    <t t-call="wedo_custom_web_components.s_interactive_animation"/>
+                </div>
+            </t>
+        </template>
+    </data>
+</odoo>
