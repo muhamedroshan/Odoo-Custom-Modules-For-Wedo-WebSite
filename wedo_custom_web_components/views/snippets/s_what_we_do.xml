@@ -1,0 +1,68 @@
+<odoo>
+    <template id="s_what_we_do" name="What WeDo ?">
+        <section class="s_what_we_do pt64 pb64 bg-white">
+            <div class="container">
+                <div class="row text-center mb-5 mt-4">
+                    <div class="col-12">
+                        <h2 class="display-3 fw-bold s_what_we_do_title">
+                            What <span style="color: #E92E26;">We</span> <span style="color: #E92E26;">Do</span> ?
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-lg-4 mb-4">
+                        <div class="wedo-service-card h-100 position-relative w-100 bg-white">
+                            <div class="wedo-service-image-wrapper">
+                                <div class="wedo-service-img-container">
+                                    <img src="/wedo_custom_web_components/static/img/image_for_service_cards/png/camera-service-card-image.png" class="img-fluid w-100 wedo-service-img" alt="CCTV &amp; Access Control"/>
+                                </div>
+                                <div class="wedo-service-icon bg-white d-flex align-items-center justify-content-center">
+                                    <img src="/wedo_custom_web_components/static/img/image_for_service_cards/svg/Camera-SVG.svg" alt="Camera Icon"/>
+                                </div>
+                            </div>
+                            <div class="wedo-service-content p-4 text-start">
+                                <h4 class="wedo-service-title fw-bold mb-3">CCTV &amp; Access Control</h4>
+                                <p class="wedo-service-desc text-muted mb-0">We offer installation services for smart surveillance cameras and advanced fingerprint devices, with technical integration to ensure the security of your property and accurately track your employees attendance and departure times.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-lg-4 mb-4">
+                        <div class="wedo-service-card h-100 position-relative w-100 bg-white">
+                            <div class="wedo-service-image-wrapper">
+                                <div class="wedo-service-img-container">
+                                    <img src="/wedo_custom_web_components/static/img/image_for_service_cards/png/server-card-image.png" class="img-fluid w-100 wedo-service-img" alt="Networking And Computer Maintenance"/>
+                                </div>
+                                <div class="wedo-service-icon bg-white d-flex align-items-center justify-content-center">
+                                    <img src="/wedo_custom_web_components/static/img/image_for_service_cards/svg/Server-SVG.svg" alt="Server Icon"/>
+                                </div>
+                            </div>
+                            <div class="wedo-service-content p-4 text-start">
+                                <h4 class="wedo-service-title fw-bold mb-3">Networking And Computer Maintenance</h4>
+                                <p class="wedo-service-desc text-muted mb-0">We design and install high-speed servers and networks, and equip operations rooms with the highest security standards, we also provide computer maintenance and repair, troubleshooting, and system upgrades to ensure optimal performance and business continuity.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-lg-4 mb-4">
+                        <div class="wedo-service-card h-100 position-relative w-100 bg-white">
+                            <div class="wedo-service-image-wrapper">
+                                <div class="wedo-service-img-container">
+                                    <img src="/wedo_custom_web_components/static/img/image_for_service_cards/png/odoo-service-card-image.png" class="img-fluid w-100 wedo-service-img" alt="Odoo ERP Solution"/>
+                                </div>
+                                <div class="wedo-service-icon bg-white d-flex align-items-center justify-content-center">
+                                    <img src="/wedo_custom_web_components/static/img/image_for_service_cards/svg/ERP-SVG.svg" alt="ERP Icon"/>
+                                </div>
+                            </div>
+                            <div class="wedo-service-content p-4 text-start">
+                                <h4 class="wedo-service-title fw-bold mb-3">Odoo ERP Solution</h4>
+                                <p class="wedo-service-desc text-muted mb-0">An integrated, intelligent enterprise resource planning (ERP) system that covers sales, accounting, human resources, and inventory on a single platform.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

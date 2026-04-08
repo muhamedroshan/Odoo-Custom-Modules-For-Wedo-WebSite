@@ -12,6 +12,7 @@
     'data': [
         'views/snippets/s_interactive_animation.xml',
         'views/snippets/s_tech_hero.xml',
+        'views/snippets/s_what_we_do.xml',
         'views/snippets/options.xml',
         'views/templates.xml',
     ],
@@ -21,6 +22,7 @@
             'wedo_custom_web_components/static/src/js/animation.js',
             'wedo_custom_web_components/static/src/css/tech_hero.css',
             'wedo_custom_web_components/static/src/js/tech_hero.js',
+            'wedo_custom_web_components/static/src/css/what_we_do.css',
         ],
     },
     'demo': [],

@@ -13,6 +13,9 @@
             <t t-snippet="wedo_custom_web_components.s_tech_hero" string="Tech Hero" group="wedo" t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.svg">
                 <keywords>Hero, Tech, Grid, Wedo</keywords>
             </t>
+            <t t-snippet="wedo_custom_web_components.s_what_we_do" string="What WeDo ?" group="wedo" t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.svg">
+                <keywords>Service, Cards, Wedo</keywords>
+            </t>
         </xpath>
     </template>
 </odoo>
