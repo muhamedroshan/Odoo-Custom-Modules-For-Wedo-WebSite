@@ -3,16 +3,17 @@
     --color-gold: #FBA704;
     --color-red: #E92E26;
     --color-white: #FFFFFF;
+    --color-text: inherit;
     --grid-size: 60px;
 
     position: relative;
     display: flex;
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background: radial-gradient(circle at center, #FFFFFF 0%, #EAEAEF 100%);
+    background-color: transparent;
 }
 
 .s_tech_hero .grid-wrapper {
@@ -30,8 +31,8 @@
     position: absolute;
     inset: 0;
     background-image:
-        linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+        linear-gradient(rgba(150, 150, 150, 0.15) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(150, 150, 150, 0.15) 1px, transparent 1px);
     background-size: var(--grid-size) var(--grid-size);
     background-position: center center;
     mask-image: radial-gradient(circle at center, black 30%, transparent 85%);
@@ -127,6 +128,7 @@
 .s_tech_hero .tagline span {
     background: var(--color-red);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
@@ -134,7 +136,8 @@
 .s_tech_hero .sub-tagline {
     font-size: clamp(1.1rem, 2vw, 1.3rem);
     font-weight: 300;
-    color: #555555;
+    color: inherit;
+    opacity: 0.8;
     margin: 0 auto 3rem auto;
     line-height: 1.7;
     max-width: 650px;
@@ -174,13 +177,14 @@
 
 .s_tech_hero .btn-tech-secondary {
     background: transparent;
-    color: var(--color-text);
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: inherit;
+    border: 1px solid currentColor;
+    opacity: 0.8;
 }
 
 .s_tech_hero .btn-tech-secondary:hover {
-    border-color: var(--color-text);
-    background: rgba(0, 0, 0, 0.04);
+    opacity: 1;
+    background: rgba(150, 150, 150, 0.1);
 }
 
 @keyframes s_tech_hero_shoot_horizontal {
