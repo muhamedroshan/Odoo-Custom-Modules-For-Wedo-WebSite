@@ -7,6 +7,9 @@
 
         <!-- Add the custom snippets to the group -->
         <xpath expr="//snippets[@id='snippet_structure']/*[1]" position="before">
+            <t t-snippet="wedo_custom_web_components.s_company_trust" string="Company Trust" group="wedo" t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.svg">
+                <keywords>Trust, Company, Banner, Wedo</keywords>
+            </t>
             <t t-snippet="wedo_custom_web_components.s_interactive_animation" string="Interactive Animation" group="wedo" t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.svg">
                 <keywords>Animation, Interactive, Wedo</keywords>
             </t>

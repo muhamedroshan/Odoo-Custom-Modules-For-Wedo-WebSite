@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_company_trust" name="Company Trust Banner">
+        <section class="s_company_trust_banner pt32 pb32 bg-white">
+            <div class="container">
+                <div class="row align-items-center justify-content-center s_company_trust_wrapper">
+                    <!-- Section 1 -->
+                    <div class="col-lg-4 col-md-12 text-center s_trust_section">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="/wedo_custom_web_components/static/img/image_for_service_cards/svg/Oman-flag.svg" alt="Oman Flag" class="s_trust_logo me-3 mr-3"/>
+                            <div class="text-start text-left ms-3 ml-3">
+                                <h3 class="mb-0 font-weight-bold s_trust_title">100%</h3>
+                                <p class="mb-0 font-weight-bold s_trust_subtitle">Proudly Omani Company</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Vertical Divider (Desktop only) -->
+                    <div class="d-none d-lg-block s_trust_divider"></div>
+                    
+                    <!-- Section 2 -->
+                    <div class="col-lg-4 col-md-12 text-center s_trust_section">
+                        <div class="s_trust_stars mb-1">
+                            <i class="fa fa-star s_company_trust_star"></i>
+                            <i class="fa fa-star s_company_trust_star"></i>
+                            <i class="fa fa-star s_company_trust_star"></i>
+                            <i class="fa fa-star s_company_trust_star"></i>
+                            <i class="fa fa-star-o s_company_trust_star"></i>
+                        </div>
+                        <p class="mb-0 font-weight-bold s_trust_subtitle">Client Satisfaction</p>
+                    </div>
+
+                    <!-- Vertical Divider (Desktop only) -->
+                    <div class="d-none d-lg-block s_trust_divider"></div>
+
+                    <!-- Section 3 -->
+                    <div class="col-lg-3 col-md-12 text-center s_trust_section">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <h3 class="mb-0 font-weight-bold s_trust_years">8+</h3>
+                            <div class="text-start text-left ms-2 ml-2">
+                                <span class="d-block mb-0 font-weight-bold s_trust_subtitle" style="line-height: 1.2;">Years</span>
+                                <span class="d-block mb-0 font-weight-bold s_trust_expertise" style="line-height: 1.2;">Expertise</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

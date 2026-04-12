@@ -1,0 +1,125 @@
+/* ========================================================
+   Company Trust Banner Styles
+   ======================================================== */
+.s_company_trust_wrapper {
+    background-color: transparent;
+    box-shadow: none;
+    /* Shadow removed per request */
+    border-radius: 8px;
+    padding: 15px 0;
+    border: none;
+    /* Border removed to blend in */
+}
+
+.s_trust_section {
+    padding: 10px 15px;
+}
+
+.s_trust_title {
+    color: #FBA704;
+    /* Yellow Dark */
+    font-size: 2rem;
+    /* Made much larger and appealing */
+    line-height: 1.1;
+    font-weight: 900;
+    /* Bold impact */
+    letter-spacing: -1.5px;
+}
+
+.s_trust_subtitle {
+    color: #F28782;
+    /* Subtle Red */
+    font-size: 1.1rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.s_trust_years {
+    color: #F28782;
+    /* Subtle Red */
+    font-size: 2.5rem;
+    /* Made much larger and appealing */
+    line-height: 1;
+    font-weight: 900;
+    /* Bold impact */
+    letter-spacing: -2px;
+}
+
+.s_trust_expertise {
+    color: #FBA704;
+    /* Yellow Dark */
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.s_trust_logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* Dividers - simple flat solid dividers as per image */
+.s_trust_divider {
+    width: 2px;
+    height: 60px;
+    background-color: #E92E26;
+    /* Red Dark */
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 991px) {
+    .s_trust_section {
+        border-bottom: 2px solid #f5f5f5;
+    }
+
+    .s_trust_section:last-child {
+        border-bottom: none;
+    }
+}
+
+/* Star Rating Animation */
+.s_trust_stars {
+    font-size: 32px;
+    color: #FBA704;
+    /* Yellow Dark */
+    margin-bottom: 4px;
+}
+
+.s_company_trust_star {
+    display: inline-block;
+    transition: color 0.3s ease;
+    margin: 0 3px;
+}
+
+@keyframes starTwistTurn {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    25% {
+        transform: scale(1.3) rotate(20deg);
+    }
+
+    50% {
+        transform: scale(1.3) rotate(-20deg);
+    }
+
+    75% {
+        transform: scale(1.3) rotate(20deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.s_company_trust_star:hover {
+    animation: starTwistTurn 0.5s ease-in-out;
+    color: #E92E26;
+    /* Highlight with Red Dark on hover */
+    cursor: pointer;
+}
