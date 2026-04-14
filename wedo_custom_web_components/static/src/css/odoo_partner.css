@@ -1,0 +1,83 @@
+/* Styling for Odoo Partner section */
+.s_odoo_partner {
+    overflow: hidden;
+}
+
+.s_odoo_partner .partner_heading {
+    /* linear gradient */
+    background: linear-gradient(90deg, #008000 0%, #DB161B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: 2.5rem;
+    line-height: 1.3;
+}
+
+.s_odoo_partner .btn-contact-us {
+    background-color: #DB161B !important;
+    border-color: #DB161B !important;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    color: white !important;
+}
+
+.s_odoo_partner .btn-contact-us:hover {
+    background-color: #b01015 !important;
+    border-color: #b01015 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(219, 22, 27, 0.4);
+}
+
+.s_odoo_partner .position-relative-wrapper {
+    margin-top: -1px; /* Avoid 1px gap */
+}
+
+.s_odoo_partner .curve-separator svg {
+    display: block;
+    width: 100%;
+    height: 100px; /* control curve height */
+}
+
+.s_odoo_partner .module-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.s_odoo_partner .module-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.s_odoo_partner .col-lg-special {
+    flex: 0 0 auto;
+    width: 14.28%; /* 7 items per row */
+}
+
+@media (max-width: 991px) {
+    .s_odoo_partner .col-lg-special {
+        width: 33.33%; /* 3 items per row on tablet */
+    }
+    .s_odoo_partner .partner_heading {
+        font-size: 2rem;
+    }
+    .s_odoo_partner .curve-separator svg {
+        height: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .s_odoo_partner .module-card-col:nth-child(n+5) {
+        display: none !important;
+    }
+    .s_odoo_partner .col-lg-special {
+        width: 50%; /* 2 items per row on mobile */
+    }
+    .s_odoo_partner .partner_heading {
+        font-size: 1.5rem;
+    }
+    .s_odoo_partner .curve-separator svg {
+        height: 40px;
+    }
+}

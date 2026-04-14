@@ -13,6 +13,12 @@
             <t t-snippet="wedo_custom_web_components.s_interactive_animation" string="Interactive Animation" group="wedo" t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.svg">
                 <keywords>Animation, Interactive, Wedo</keywords>
             </t>
+            <t t-snippet="wedo_custom_web_components.s_trusted_partners" string="Trusted Partners" group="wedo" t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.svg">
+                <keywords>Trusted, Partners, Logos, Wedo</keywords>
+            </t>
+            <t t-snippet="wedo_custom_web_components.s_odoo_partner" string="Odoo Partner" group="wedo" t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.svg">
+                <keywords>Odoo, Partner, Trust, Oman, Wedo</keywords>
+            </t>
             <t t-snippet="wedo_custom_web_components.s_tech_hero" string="Tech Hero" group="wedo" t-thumbnail="/website/static/src/img/snippets_thumbs/s_text_block.svg">
                 <keywords>Hero, Tech, Grid, Wedo</keywords>
             </t>

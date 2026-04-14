@@ -7,7 +7,7 @@
                     <!-- Section 1 -->
                     <div class="col-lg-4 col-md-12 text-center s_trust_section">
                         <div class="d-flex align-items-center justify-content-center">
-                            <img src="/wedo_custom_web_components/static/img/image_for_service_cards/svg/Oman-flag.svg" alt="Oman Flag" class="s_trust_logo me-3 mr-3"/>
+                            <img src="wedo_custom_web_components/static/img/oman_flag/svg/Oman-flag.svg" alt="Oman Flag" class="s_trust_logo me-3 mr-3"/>
                             <div class="text-start text-left ms-3 ml-3">
                                 <h3 class="mb-0 font-weight-bold s_trust_title">100%</h3>
                                 <p class="mb-0 font-weight-bold s_trust_subtitle">Proudly Omani Company</p>

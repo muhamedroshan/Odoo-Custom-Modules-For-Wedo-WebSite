@@ -1,0 +1,15 @@
+<odoo>
+    <template id="s_trusted_partners" name="Trusted Partners">
+        <section class="s_trusted_partners pt-5 pb-5 bg-white">
+            <div class="container">
+                <div class="d-flex flex-wrap justify-content-center align-items-center gap-4 gap-md-5 partner-container">
+                    <h2 class="trusted_partners_heading mb-0 me-md-4">Trusted Partners</h2>
+                    
+                    <img src="/wedo_custom_web_components/static/img/image_of_logo_of_trusted_partners/lingua-institute.png" alt="Lingua Institute" class="partner-logo"/>
+                    <img src="/wedo_custom_web_components/static/img/image_of_logo_of_trusted_partners/creative-pack.png" alt="Creative Pack" class="partner-logo"/>
+                    <img src="/wedo_custom_web_components/static/img/image_of_logo_of_trusted_partners/alhoor-international.png" alt="Al-Hoor International" class="partner-logo"/>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
